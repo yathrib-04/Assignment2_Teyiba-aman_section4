@@ -1,0 +1,28 @@
+.first-sec{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+form { 
+   display: flex;
+   flex-direction: column;
+   gap: 10px; /* Add some spacing between elements */ 
+} 
+input[type="text"], textarea {
+    width: 300px; /* Adjust this value as needed */ 
+}
+textarea {
+    width: 500px; /* Adjust this value as needed */ 
+    height: 150px; /* You can also adjust the height if needed */ 
+}
+.first-wraper{
+    margin-right: 70px;
+}
+.first-wraper h3{
+    margin-bottom: 15px;
+    color: greenyellow;
+}
+button{
+    margin-top: 10px;
+}
